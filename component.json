@@ -1,0 +1,13 @@
+{
+  "name": "maple-layout",
+  "repo": "leafs/maple-layout",
+  "description": "cross browser layout",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "maple-layout.css"
+  ]
+}

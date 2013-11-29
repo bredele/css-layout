@@ -1,0 +1,62 @@
+/* float layout */
+
+//put in utils styl
+%overflow
+    overflow:hidden
+
+.mod
+  extend:%overflow
+
+.item
+  extend:%overflow
+
+.clear
+  clear: both
+
+.line
+  extend:.clear
+
+.clearfix:after,
+.line:after,
+.mod:after
+  content:""
+  display:table
+  clear:both
+
+/* table layout */
+
+.row
+  extend:.clear
+  display:table
+  table-layout:fixed
+  width:100%
+
+.row > *
+    display:table-cell
+    vertical-align:top
+
+.col
+  extend:.row > *
+
+/* inline-block layout */
+
+.inbl
+  display:inline-block
+  vertical-align:top
+  margin-right:-.25em
+
+/* flexible layout */
+
+img.left
+  margin-right:1em
+
+img.right 
+  margin-left:1em
+
+img.left,
+img.right 
+  margin-bottom:5px
+
+.center
+  margin-left:auto
+  margin-right:auto

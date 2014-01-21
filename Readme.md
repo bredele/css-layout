@@ -1,5 +1,4 @@
-
-# maple-layout
+# css-layout
 
   cross browser layout
 
@@ -7,7 +6,7 @@
 
   Install with [component(1)](http://component.io):
 
-    $ component install leafs/maple-layout
+    $ component install bredele/css-layout
 
 ## API
 
